@@ -1,0 +1,6 @@
+vezeteknev = input ('Mi a vezetekneved? ')
+keresztnev = input ('Mi a keresztneved? ')
+szuletesiev = input ('Mikor szulettel?')
+csillagjegy = input ('Mi a csillag jegyed?')
+print('a te neved', vezeteknev, keresztnev, )
+print('szuletesi eved',szuletesiev, 'csillag jegyed' ,csillagjegy ,)
