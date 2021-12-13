@@ -52,7 +52,6 @@ szam = 1
 while szam <= 1:
     szam = szam + 1  
     
-    import random
     random_szam = random.randint(1,100)
     print(random_szam)
 
@@ -105,21 +104,25 @@ else:
 
 #Ciklusok
 #1. Feladat
- 
+szam3 = 10
+while szam3 >= 0:
+    print(szam3)
+    szam3 = szam3 -2
+
 
 #2. Feladat
 
-szam = 10
-while szam >= 0:
-  print(szam)
-  szam = szam -1   
+szam7 = 10
+while szam7 >= 0:
+  print(szam7)
+  szam7 = szam7 -1   
 
 #3. Feladat
 
-szam = 9
-while szam >= 0:
-  print(szam)
-  szam = szam -2  
+szam8 = 9
+while szam8 >= 0:
+  print(szam8)
+  szam8 = szam8 -2  
 
 #4. feladat
 
@@ -142,15 +145,11 @@ print("Program vége")
 
 #6. Feladat
 
-szam = 1
-while szam <= 20:
-    szam = szam + 1  
+szam10 = 1
+while szam10 <= 20:
+    szam10 = szam10 + 1  
     
-    import random
     random_szam = random.randint(1,12)
     oszthato3 = (random_szam % 3 == 0)
     if oszthato3:
         print(random_szam)
-
-
-
